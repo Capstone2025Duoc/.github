@@ -1,5 +1,7 @@
 # Sistema de Gestión y Administración Escolar - Capstone 2025
 
+![Imagen de un campus escolar moderno](https://via.placeholder.com/800x200.png?text=Proyecto+Sistema+Escolar)
+
 ## Introducción
 
 Bienvenidos a la organización oficial del proyecto **Sistema de Gestión y Administración Escolar**. Este espacio ha sido creado para centralizar, documentar y mostrar los avances del proyecto Capstone 2025 de la carrera de Ingeniería en Informática.
@@ -13,6 +15,27 @@ El objetivo de este proyecto es desarrollar una plataforma web integral que opti
 -   **Aaron Fuentes**
 -   **Gaspar Lema**
 -   **Cristian Gaete**
+
+---
+
+## 🏗️ Estructura de Repositorios y Arquitectura
+
+Para asegurar la escalabilidad, mantenibilidad y desacoplamiento de los componentes, el proyecto está desarrollado bajo una arquitectura de microservicios para el backend y un repositorio dedicado para el frontend.
+
+### 🎨 Frontend Web
+La aplicación cliente, que consume los servicios del backend, se encuentra en su propio repositorio, en su version web, para navegadores.
+-   **Repositorio Frontend:** [frontend-web](https://github.com/Capstone2025Duoc/frontend-web)
+
+### 🎨 Frontend mobile
+La aplicación cliente, que consume los servicios del backend, se encuentra en su propio repositorio, en su version mobile, para celulares.
+-   **Repositorio Frontend:** [frontend-web](https://github.com/Capstone2025Duoc/frontend-mobile)
+
+### ⚙️ Backend (Microservicios)
+El backend está distribuido en varios repositorios, donde cada uno corresponde a un microservicio con una responsabilidad única dentro del sistema.
+-   **Servicio de Autenticación y Usuarios:** [auth-service](https://github.com/Capstone2025Duoc/auth-service)
+-   **Servicio de Profesores (Cursos, Notas, Asistencia):** [teacher-service](https://github.com/Capstone2025Duoc/teacher-service)
+-   **Servicio de Administrativos (Metricas, Notas, Estadisticas):** [admin-service](https://github.com/Capstone2025Duoc/admin-service)
+-   **Servicio de Estudiantes (Notas, Clases):** [student-service](https://github.com/Capstone2025Duoc/student-service)
 
 ---
 
