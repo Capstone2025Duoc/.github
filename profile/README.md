@@ -1,7 +1,5 @@
 # Sistema de Gestión y Administración Escolar - Capstone 2025
 
-![Imagen de un campus escolar moderno](https://via.placeholder.com/800x200.png?text=Proyecto+Sistema+Escolar)
-
 ## Introducción
 
 Bienvenidos a la organización oficial del proyecto **Sistema de Gestión y Administración Escolar**. Este espacio ha sido creado para centralizar, documentar y mostrar los avances del proyecto Capstone 2025 de la carrera de Ingeniería en Informática.
